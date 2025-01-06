@@ -22,7 +22,7 @@ So what is virtualization anyway? Basically, the IT term virtualization refers t
 
 On the image below - the top computer would be the host computer. The three computers below the host are referred to as guest virtual machines.
 
-<img src="">
+<img src="https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/Host%20Machine.jpg">
  
 Virtual machines act like real computers, but run as a software program. So you can start, restart, shut down, install software and operating systems just like you would on a normal computer.
 This makes virtual machines perfect for IT labs.
