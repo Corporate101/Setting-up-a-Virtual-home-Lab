@@ -89,28 +89,30 @@ This network type allows your VMs to use the internet connectivity of the host c
  
 Using NAT is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-NAT Network
+<h2>NAT Network</h2>
 This network is the same as NAT, but it allows your VMs to communicate to other VMs that are attached to the same NAT network. Use this when your labs use multiple VMs and need internet connectivity.
  
 You can create a NAT Network by clicking on File > Preferences. Select the Network tab and then click the plus button to create a new NAT Network.
  
+<img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/NAT-Network.jpg>
 
-Bridged Adapter
+<h2>Bridged Adapter</h2>
 Using this network type will cause your router to treat your VM as a physical computer. This means your VM will be connected to the same network as your host computer. Use this lab when you need to access your VMs from your host network.
 
 Using a bridged adapter is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Internal Network
+<h2>Internal Network</h2>
 This network provides your VMs with connectivity but no external access. Use this when you want to create an isolated IT lab.
 Using an Internal Network is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
 
-Host-only Adapter
+<h2>Host-only Adapter</h2>
 This is essentially the same as an internal network, except that your host computer will have a direct IP connection to the VM. Meaning you can RDP, SSH or ping the VMs from the host computer. Use this network type when you will need direct access to the VMs from your host computer. It is commonly used for test web servers (think copying files from the host computer to the VM web server, or directly editing the code on the web server VM from your host computer.
  
 You can create a host-only network by select File > Host Network Manager
  
+<img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/Host-Only-Network-Adapters.jpg>
 
-Generic Driver
+<h2>Generic Driver</h2>
 Oracles documentation for the generic driver states:
 The generic driver attachment is special and cannot be considered as an alternative to other attachment types.
 
@@ -120,13 +122,14 @@ First I will select File > Preferences, then navigate to the Network tab. Next I
 
 This will create a new NAT Network. If I want to modify the subnet, disable DHCP or support IPv6 I can do this by double-clicking the NAT Network.
  
+<img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/NAT-Network-2.jpg>
 
 I am going to leave all of these options at default... so I am done creating the Virtual Network!
 Configure the Networking tab for your chosen network type. Again, the easiest solution is to create and use a NAT Network.
 
- 
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/VM-Network.jpg>
 
-Downloading Your operating systems ISO(s)
+<h2>Downloading Your operating systems ISO(s)</h2>
 Next we need an operating system (OS) to install on our Virtual Machines. You could do this with a physical disc if you wanted, but most of the time you will want to download an ISO for OS installations.
  
 The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search 
@@ -141,7 +144,7 @@ Centos 7
 Ubuntu
 Kali Linux
 
-Installing an OS on Your Lab VMs
+<h2>Installing an OS on Your Lab VMs</h2>
 Once you have downloaded your ISO file, it's time to mount it to your VM in VirtualBox. Mounting a VM is essentially like virtually inserting a disc into a DVD drive of a computer.
  
 Right click on your VM and select settings then open the Storage tab. From there click the Empty disc icon, then again the disc icon under Attributes on the right hand side of the window. Click the Choose Virtual Optical Disk File... and browse to and open your desired ISO.
@@ -149,6 +152,8 @@ Right click on your VM and select settings then open the Storage tab. From there
 
 Click OK and now when we launch the VM you will be able to begin your OS installation.
 I mounted a Windows Server 2016 ISO so when I launch the VM I will see the installation screen for this OS.
+
+<img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/Windows-Server-2016-Install-2.jpg>
  
 Now you can run through your OS installation and complete your lab setup.
 Wrapping it Up...
