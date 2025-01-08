@@ -37,7 +37,7 @@ In this setup I will be using Oracle VM VirtualBox because it is compatible with
  
 <h2>Downloading and Installing VirtualBox</h2>
 Download Oracle VM VirtualBox by clicking here. Once the download completes, I launched the installation.
- <img src=
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/VirtualBox-Complete.jpg>
 I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'.
  
 Click Finish and launch VirtualBox.
