@@ -41,7 +41,9 @@ Download Oracle VM VirtualBox by clicking here. Once the download completes, I l
 I Proceeded through the installation using all of the default options. Any prompts that are a yes/no you need to select "yes'.
  
 Click Finish and launch VirtualBox.
+
  <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/VirtualBox-Complete.jpg>
+ 
 Creating a Virtual Machine
 Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.
  
