@@ -46,30 +46,29 @@ Click Finish and launch VirtualBox.
  
 Creating a Virtual Machine
 Now that we know what type of virtual network we want to use it's time to create a VM (Virtual Machine). We can do this by clicking the New button within the VirtualBox Manager.
- 
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/New.jpg>
 This will launch the new VM window. Go ahead and click the Expert Mode button. Don't worry - it doesn't make the process more difficult it only allows you to create a VM while navigating through less pages.
- 
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/New-VM.jpg>
 I am going to specify a name of "MyVM" and 2048 MB (2gb) of RAM then I will click Create.
- 
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/New-Vm2.jpg>
 This will open another window for creating the Virtual Hard Disk. The default options here are all fine except for the File Size. I am going to set my new HDD to 60GB and then choose Create.
- 
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/New-VM-HDD.jpg>
 Since this HDD is going to be dynamically allocated (option on the middle-right of the screenshot below), the HDD file will only be as large as the amount of data stored on it - and a maximum of 60GB
 Now you will see MyVM listed on the VirtualBox dashboard. Before we start the VM we can modify the settings of the VM if we want. Generally you might want to assign more processors, change the networking adapters and mount an ISO.
- 
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/VM-Settings.jpg>
 Increasing the processor CPUs can greatly improve the performance of your VM, so if at all possible increase the number of CPUs to 2.
 Pro tip: Storing the VM's hard disk file on an SSD will also significantly increase the VMs performance.
- 
-And that is all we need to do to create the VM. Of course we can't start the VM yet because we haven't downloaded or attached an operating system ISO... But we will cover that in the next section.
-
-Creating a Virtual Network with VirtualBox
+ <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/CPUs.jpg>
+And that is all we need to do to create the VM. Of course we can't start the VM yet because we haven't downloaded or attached an operating system ISO... But we will cover that in the next section
+<h2>Creating a Virtual Network with VirtualBox</h2>
 Virtual Networks allow you to connect your VMs to whatever you want. There are several different types of networks you can create with VirtualBox and the one you chose will depend on your requirements.
- 
+
 Keep in mind that you won't be able to access all of these network types if you haven't created a VM because some of them are configured from within the VM settings.
  
 Here is an overview of the different network types you could create:
- 
+<img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/VM-Network.jpg>
 
-NAT
+<h2>NAT</h2>
 This network type allows your VMs to use the internet connectivity of the host computer. You will have no connectivity to other VMs or the host computer. Use this type if your lab will only have one VM.
  
 Using NAT is as simple as right-clicking your VM and selecting Settings then navigating to the Network tab (image above)
