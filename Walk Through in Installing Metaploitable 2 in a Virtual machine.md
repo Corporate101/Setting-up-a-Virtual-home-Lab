@@ -1,6 +1,6 @@
 
 <h2>Download Metasploitable</h2>
-[Click here]{https://sourceforge.net/projects/metasploitable/files/latest/download}to download the Metasploitable 2 VM. The file you download will be approximately 800 MB in size and will come in a zip format.
+[Click here](https://sourceforge.net/projects/metasploitable/files/latest/download)to download the Metasploitable 2 VM. The file you download will be approximately 800 MB in size and will come in a zip format.
 
 
 Extract the Zip File:
