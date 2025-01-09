@@ -5,10 +5,10 @@
 Extract the Zip File:
 After downloading, extract the contents of the zip file. You should see several files including a .vmdk file which is crucial for setting up the VM.
 
-<img src= >
+<img src=
 
 Open VirtualBox:
-Launch VirtualBox on your computer. If you haven't installed VirtualBox, you need to do so before proceeding.
+Launch VirtualBox on your computer. If you haven't installed VirtualBox,I have created a guide on Setting up a home lab <a href=.
 
 Create a New Virtual Machine:
 Click on "New" to start the VM creation wizard. 
