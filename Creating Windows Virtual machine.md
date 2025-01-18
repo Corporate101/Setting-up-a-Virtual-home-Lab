@@ -130,24 +130,16 @@ Configure the Networking tab for your chosen network type. Again, the easiest so
  <img src=https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/VM-Network.jpg>
 
 <h2>Downloading Your operating systems ISO(s)</h2>
-Next we need an operating system (OS) to install on our Virtual Machines. You could do this with a physical disc if you wanted, but most of the time you will want to download an ISO for OS installations.
+Next we need an operating system (OS) to install on our Virtual Machines. You could do this with a physical disc if you wanted, but most of the time you will want to download an ISO for OS installations from <a href="https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016">here</a>
+
+<img src="https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/Download%20windows%20ISO.png">
  
-The easiest way to find what you're looking for is to simply google the name of your operating system with "ISO download" in the search.  For example if you want Windows Server 2016, just search 
-
-"Windows Server 2016 ISO Download".
-You should ONLY download ISOs from official websites. This means you shouldn't download Windows Server from a website like "sneakyfreecdkeys.com"...
-
-I will still provide links to the most common operating systems that people want to install below. Keep in mind if the link is dead you can just run a quick google search and easily find the download.
-Windows Server 2016
-Windows 10 (requires a valid Windows 10 license to download)
-Centos 7
-Ubuntu
-Kali Linux
-
 <h2>Installing an OS on Your Lab VMs</h2>
 Once you have downloaded your ISO file, it's time to mount it to your VM in VirtualBox. Mounting a VM is essentially like virtually inserting a disc into a DVD drive of a computer.
  
 Right click on your VM and select settings then open the Storage tab. From there click the Empty disc icon, then again the disc icon under Attributes on the right hand side of the window. Click the Choose Virtual Optical Disk File... and browse to and open your desired ISO.
+
+<img src="https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/Attach-an-ISO.jpg">
  
 
 Click OK and now when we launch the VM you will be able to begin your OS installation.
