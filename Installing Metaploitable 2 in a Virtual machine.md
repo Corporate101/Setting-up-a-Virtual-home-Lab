@@ -46,3 +46,4 @@ Once logged in, you can verify the setup by running commands like ifconfig to se
 
 This should give you a working Metasploitable 2 environment in VirtualBox for security testing purposes. Remember, this VM is intentionally vulnerable, so be cautious with its network configuration to avoid security risks.
 
+<img src="https://github.com/Corporate101/Setting-up-a-Virtual-home-Lab/blob/main/Folder/Screenshot%202025-02-17%20081248.png">
